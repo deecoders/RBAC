@@ -34,7 +34,7 @@ home screen of admin.
 
 ## Assumptions
 
-1. There is only one admin user that can exist with "admin" as username and password as "123". It will have admin as role which will have all the prmission for all resources
+1. There is only one admin user on client side that can exist with "admin" as username and password as "123". Only admin can add or delete entities.
 2. Entity name IDs will be unique like userName, roleName, resourceName, actionTypeName. Currently this scenario is not handled in code for duplicate entries but code design will allow this to be done easily.
 3. Exceptions might comes at some places regarding memory access if input is given in such a way. Code does not handle corenr cases completely(due to lack of time)
 
@@ -58,3 +58,6 @@ home screen of admin.
 
 ## How to Run
 1. Run main() method in "App.java" to launch the application
+
+## ScreenShots
+ ![Alt](https://github.com/deecoders/RBAC/blob/master/screenshots/AdminWelcome.png)
