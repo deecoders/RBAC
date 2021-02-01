@@ -39,7 +39,7 @@ home screen of admin.
 3. Exceptions might comes at some places regarding memory access if input is given in such a way. Code does not handle corenr cases completely(due to lack of time)
 
 
-## Initilaizations
+## Initializations
 1. User
 * username="anksh", password="123", normal user
 * username="shkaya" password="123", normal user
