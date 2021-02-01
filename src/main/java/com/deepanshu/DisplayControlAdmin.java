@@ -25,7 +25,7 @@ public class DisplayControlAdmin implements DisplayControl{
         while(!exit){
             System.out.println("Press 1 to add a user\nPresss 2 to delete user" +
                     "\nPress 3 to edit role of a user"+
-                    "\nPress 4 to view all roles of a user\nPress 5 to view all users");
+                    "\nPress 4 to view all roles of a user\nPress 5 to view all users\nAny other key to exit");
             try {
                 option = Integer.parseInt(input.readLine());
                 switch (option){
