@@ -34,4 +34,27 @@ home screen of admin.
 
 ## Assumptions
 
-1. 
+1. There is only one admin user that can exist with "admin" as username and password as "123". It will have admin as role which will have all the prmission for all resources
+2. Entity name IDs will be unique like userName, roleName, resourceName, actionTypeName. Currently this scenario is not handled in code for duplicate entries but code design will allow this to be done easily.
+3. Exceptions might comes at some places regarding memory access if input is given in such a way. Code does not handle corenr cases completely(due to lack of time)
+
+
+## Initilaizations
+1. User
+* username="anksh", password="123", normal user
+* username="shkaya" password="123", normal user
+* username="admin" password="123", admin
+
+2. Roles
+* roleName="Admin"
+* roleName="Accountant"
+* roleName="Developer"
+
+3. Resources
+* resourceName="Payroll"
+* resourceName="Production"
+
+4. Roles are assigned to users anksh, shkaya and appropriate access is given to resources
+
+## How to Run
+1. Run main() method in "App.java" to launch the application
