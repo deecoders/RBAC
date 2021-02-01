@@ -60,23 +60,23 @@ home screen of admin.
 1. Run main() method in "App.java" to launch the application
 
 ## ScreenShots
-1. Admin Welcome Screen
+1. **Admin Welcome Screen**
  ![Alt](https://github.com/deecoders/RBAC/blob/master/screenshots/AdminWelcome.png)
  
- 2. Adding User
+ 2. **Adding User**
  ![Alt](https://github.com/deecoders/RBAC/blob/master/screenshots/AddUser.png)
  
- 3. Deleting a User
+ 3. **Deleting a User**
  ![Alt](https://github.com/deecoders/RBAC/blob/master/screenshots/deleteUser.png)
  
- 4. Edit Role of a User
+ 4. **Edit Role of a User**
  ![Alt](https://github.com/deecoders/RBAC/blob/master/screenshots/editRole.png)
  
- 5. User Welcome Screen
+ 5. **User Welcome Screen**
  ![Alt](https://github.com/deecoders/RBAC/blob/master/screenshots/userWelcome.png)
  
- 6. View roles of the user logged in
+ 6. **View roles of the user logged in**
  ![Alt](https://github.com/deecoders/RBAC/blob/master/screenshots/userRoleView.png)
  
- 7. View access types for a particular resource of the looged in user
+ 7. **View access types for a particular resource of the looged in user**
  ![Alt](https://github.com/deecoders/RBAC/blob/master/screenshots/resouceAccessView.png)
